@@ -1,0 +1,27 @@
+.daily-weather {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.weather-today {
+  padding-bottom: 4vh;
+  margin-bottom: 2vh;
+  text-transform: capitalize;
+}
+
+.weather-today h1 {
+  margin-top: 4vh;
+}
+.weather-today img {
+  width: 15%;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 0.7rem;
+  }
+  .weather-today img {
+    width: 35%;
+  }
+}

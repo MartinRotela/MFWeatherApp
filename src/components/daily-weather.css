@@ -1,0 +1,10 @@
+.daily-card {
+  padding: 2vw;
+}
+.daily-card img {
+  width: 70%;
+}
+
+.daily-card p {
+  text-transform: capitalize;
+}
